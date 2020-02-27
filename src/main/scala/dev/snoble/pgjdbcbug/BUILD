@@ -50,4 +50,5 @@ graal_binary(
 	"--initialize-at-build-time=org.postgresql.util.SharedTimer",
 	"-H:+TraceClassInitialization",
     ],
+    reflection_configuration = "reflectconfig",
 )
